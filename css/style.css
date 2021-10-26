@@ -12,3 +12,9 @@
  h3 {
         text-align: center;
  }
+
+ p.auto {
+       -webkit-hyphens: auto;
+       -ms-hyphens: auto;
+       hyphens: auto;
+}
