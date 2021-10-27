@@ -5,15 +5,70 @@
         display: none;
  }
 
- .arrow-up {
+ body {
+       display: block;
+       overflow-x: hidden;
+}
+
+.arrow-up {
         filter: invert(1);
  }
 
- h3 {
+
+ .navbar-brand {
+       text-transform: uppercase;
+       font-weight: 900;
+       font-size: 24px;
+       color: blue;
+}
+
+ section h1 {
+       text-transform: uppercase;
+       font-weight: 900;
+       font-size: 24px;
+       color: blue;
+}
+
+section p {
+       font-size: 16px;
+       font-weight: 300;
+}
+
+#baout-me .container {
+       margin-top: 100px;
+       justify-content: center;
+}
+
+nav {
+       background-color: white;
+}
+
+.nav-link {
+       color: #A9A9A9;
+       font-size: 22px;
+       margin: auto 10px;
+}
+
+.nav-link:hover {
+       color: blue;
+}
+
+#about-me {
+       height: 100vh;
+}
+
+.section {
+       padding-top: 50px;
+       padding-bottom: 50px;
+       margin-top: 7rem;
+ }
+
+h3 {
+       margin-top: 2rem;
         text-align: center;
  }
 
- p.auto {
+p.auto {
        -webkit-hyphens: auto;
        -ms-hyphens: auto;
        hyphens: auto;
