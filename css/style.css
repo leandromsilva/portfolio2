@@ -56,6 +56,10 @@ nav {
     height: 100vh;
 }
 
+#myimg{
+    border-radius: 50%;
+}
+
 .section {
     padding-top: 50px;
     padding-bottom: 50px;
