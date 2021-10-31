@@ -49,7 +49,7 @@ nav {
 
 .nav-link {
     color: #A9A9A9;
-    font-size: 22px;
+    font-size: 110%;
     margin: auto 10px;
 }
 
@@ -67,8 +67,8 @@ nav {
 }
 
 .section {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 10%;
+    padding-bottom: 20%;
     margin-top: 7rem !important;
 }
 
@@ -87,12 +87,20 @@ p.auto {
     hyphens: auto;
 }
 
+p.lead {
+    font-size: 100%;
+}
+
 @media (max-width: 1000px) {
     #desktop-navbar {
         display: none !important;
     }
 
-    #about-me, .mt-5 {
+    #about-me {
+        padding-top: 0px !important;
+    }
+
+    .mt-5 {
         margin-top: 0rem !important;
     }
 
