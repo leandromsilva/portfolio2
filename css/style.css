@@ -38,9 +38,12 @@ section p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#baout-me .container {
-    margin-top: 100px;
+#about-me .container {
     justify-content: center;
+}
+
+#about-me {
+    padding-top: 5% !important;
 }
 
 nav {
