@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Roboto:wght@300&display=swap');
+
 #back-to-top {
     position: fixed;
     bottom: 20px;
@@ -5,17 +7,22 @@
     display: none;
  }
 
- body {
+body {
+    font-family: "JetBrains mono";
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     display: block;
     overflow-x: hidden;
 }
 
 .arrow-up {
     filter: invert(1);
- }
+}
 
+.card, .list-group-item{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7));
+}
 
- .navbar-brand {
+.navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 24px;
@@ -29,8 +36,13 @@ section h1 {
 }
 
 section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 300;
+}
+
+.list-group-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #baout-me .container {
@@ -53,6 +65,7 @@ nav {
 }
 
 #about-me {
+    margin-top: 4rem !important;
     height: 100vh;
 }
 
@@ -63,7 +76,7 @@ nav {
 .section {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 7rem;
+    margin-top: 7rem !important;
  }
 
 h3 {
