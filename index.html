@@ -12,17 +12,17 @@
 
 <body>
 	<section role="navigation">
-		<nav class="py-3 navbar navbar-expand-lg fixed-top navbar-light">
+		<nav id="desktop-navbar" class="py-3 navbar navbar-expand-lg fixed-top navbar-light">
 			<div class="container">
 				<a class="navbar-brand" href="#">Leandro da Silva</a>
 				<button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto">
-						<li class="nav-item mt-1">
+						<li class="nav-item">
 							<a class="nav-link" href="#experience">Experiência</a>
 						</li>
 						<li class="nav-item">
@@ -34,6 +34,12 @@
 					</ul>
 				</div>
 			</div>
+		</nav>
+		<nav id="mobile-navbar" class="navbar fixed-bottom">
+			<a class="mobile-navbar-link" href="#"><i class='bx bx-user bx-sm'></i><span>Sobre mim</span></a>
+			<a class="mobile-navbar-link" href="#experience"><i class='bx bx-bulb bx-sm'></i><span>Experiência</span></a>
+			<a class="mobile-navbar-link" href="#knowledge"><i class='bx bx-book bx-sm'></i><span>Conhecimentos</span></a>
+			<a class="mobile-navbar-link" href="#projects"><i class='bx bxs-devices bx-sm'></i><span>Projetos</span></a>
 		</nav>
 	</section>
 	<section id="about-me" class="section text-center">
@@ -241,12 +247,7 @@
 		</div>
 	</section>
 
-	<button type="button" class="btn btn-primary btn-lg" id="back-to-top">
-		<img class="arrow-up" src="img/arrow-up.svg">
-	</button>
-
 	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/index.js"></script>
 
 </body>
 
